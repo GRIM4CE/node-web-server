@@ -1,0 +1,17 @@
+{
+  "name": "node-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jon Leibham (bhamdesigns.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.14.1",
+    "hbs": "^4.0.1",
+    "nodemon": "^1.11.0"
+  }
+}
