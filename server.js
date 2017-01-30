@@ -33,21 +33,28 @@ hbs.registerHelper('copyright', () => {
 app.get('/', (req, res) => {
   res.render('index', {
     title: 'dooo doo doo',
-    intro: 'sing sing sing me a song song song!',
+    main: 'sing sing sing me a song song song!',
   })
 });
 
 app.get('/about', (req, res) => {
   res.render('about', {
     title: 'Dookey',
-    about: 'Beef Licker',
+    main: 'Beef Licker',
+  });
+});
+
+app.get('/portfolio', (req, res) => {
+  res.render('portfolio', {
+    title: 'CHECK OUT MY STUDS',
+    main: 'THIS IS DA WERK',
   });
 });
 
 app.get('/contact', (req, res) => {
   res.render('contact', {
     title: 'HEY WHATS UP HELLO',
-    about: 'BEEP BEEP BEEP BEEP',
+    main: 'BEEP BEEP BEEP BEEP',
   });
 });
 
